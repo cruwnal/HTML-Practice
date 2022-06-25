@@ -21,3 +21,24 @@ html>
 </body>
 <footer>Its an image of gomti river</footer>
 </html>
+.........................................................................................................
+click able image
+image source =https://cdn.pixabay.com/photo/2016/11/30/09/28/cursor-1872301_960_720.png
+save the image in same folder where you going to save the html file and in other word the html file and image file must be in same folder.
+target element willl not work here in img tag.
+align element will not work in inline element like img tag.
+
+
+<head>
+    <title>
+        Clickable image
+    </title>
+    <body>
+        <h1 style="color:blueviolet" align="center">Click able image</h1>
+        <a align="center" href="https://www.bing.com/search?q=kunal+nagwanshi&cvid=cf3810706f564478b494bee201719030&aqs=edge..69i57j69i61l3j69i64.9419j0j1&pglt=297&FORM=ANNTA1&PC=ASTS">
+        <img src="clickHere.jpg" alt="Click here" target="_blank" hight="500" width="500" align="center"></a>
+        <!--target attribute will not going to work-->
+        <!--align attribute wii not work in inline elements -->>
+    </body>
+    <footer align="center" style="color:brown">Click here to get more about kunal nagwanshi</footer>
+</head>

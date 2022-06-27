@@ -42,3 +42,19 @@ align element will not work in inline element like img tag.
     </body>
     <footer align="center" style="color:brown">Click here to get more about kunal nagwanshi</footer>
 </head>
+..............................................................................................................
+<!--Un ordered list and un ordered list-->
+<head>
+    <title>Order and un order list</title>
+</head>
+<body>
+    <li>coffe</li>
+    <li>tea</li>
+    <li>milk</li>
+    <li>water</li>
+
+    <ul>coffe</ul>
+    <ul>tea</ul>
+    <ul>milk</ul>
+    <ul>water</ul>
+</body>

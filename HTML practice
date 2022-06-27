@@ -119,3 +119,57 @@ align element will not work in inline element like img tag.
         </ol>
     </body>
 </head>
+.......................................................................................................................................
+<head>
+    <title>
+        Order list
+    </title>
+    <body>
+        <ol >
+            <li>India</li>
+               <ol type="I"style="color:blue">
+                   <li>Delhi</li>
+                   <li>Chandigarh</li>
+                   <li>Dadra and Nagar Haveli and Daman and Di </li>
+                   <li>Podicharry</li>
+                   <li>andman and nikobar</li>
+                   <li>Lakshadweep</li>
+                   <li>Ladakh </li>
+                   <li>Jammu and Kashmir</li>
+                 </ol>
+             <li>USA</li>
+                <ol style="color:brown" type="I">
+                <li>Minnesota</li>
+                <li>Mississippi</li>
+                <li>Montana</li>
+                <li>Nebraska</li>
+                <li>Nevada	NV</li>
+                <li>New Hampshire</li>
+                <li>New Jersey</li>
+                <li>New Mexico</li>
+                <li>New York</li>
+                <li>North Carolina</li>
+                <li>North Dakota</li>
+                <li>Ohio	OH</li>
+                <li>Oklahoma</li>
+                <li>Oregon	OR</li>
+                <li>Pennsylvania[D]</li>
+                <li>Rhode Island</li>
+                <li> South Carolina</li>
+                <li>South Dakota</li>
+                <li>Tennessee</li>
+                <li>Texas	TX</li>
+                <li> Utah	UT</li>
+                <li> Vermont</li>
+                <li>Virginia[D]</li>
+                <li>Washington</li>
+                <li>West Virginia</li>
+                <li>Wisconsin </li>
+                <li>Wyoming</li>
+                </ol>
+
+                
+            
+        </ol>
+    </body>
+</head>

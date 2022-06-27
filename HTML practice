@@ -48,13 +48,16 @@ align element will not work in inline element like img tag.
     <title>Order and un order list</title>
 </head>
 <body>
+    <ol>
     <li>coffe</li>
     <li>tea</li>
     <li>milk</li>
     <li>water</li>
-
-    <ul>coffe</ul>
-    <ul>tea</ul>
-    <ul>milk</ul>
-    <ul>water</ul>
+    </ol>
+  <ul>
+    <li>coffe</li>
+    <li>tea</li>
+    <li>milk</li>
+    <li>water</li>
+ </ul>
 </body>

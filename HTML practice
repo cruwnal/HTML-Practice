@@ -61,3 +61,61 @@ align element will not work in inline element like img tag.
     <li>water</li>
  </ul>
 </body>
+.................................................................................................................
+//order list with some specification like attributes like type and start
+
+
+<head>
+    <title>
+        Orderd list
+    </title>
+    <body>
+        <ol style="color:rgba(35, 8, 242, 0.893)" >
+            <li > World</li>
+                <li> Asia</li>
+                <li>India</li>
+                <li>Madhya prades</li>
+                <li> Asia</li>
+                <li> Bhopal</li>
+                <li>Kolar road</li>
+                <li>Rai pink city phase-1</li>
+                <li>F-196</li>
+        </ol>
+
+        <ol type="I" style="color:rgba(1, 122, 15, 0.893)">
+            <li > World</li>
+                <li> Asia</li>
+                <li>India</li>
+                <li>Madhya prades</li>
+                <li> Asia</li>
+                <li> Bhopal</li>
+                <li>Kolar road</li>
+                <li>Rai pink city phase-1</li>
+                <li>F-196</li>
+        </ol>
+
+        <ol type="A" style="color:rgba(242, 24, 8, 0.893)">
+            <li > World</li>
+                <li> Asia</li>
+                <li>India</li>
+                <li>Madhya prades</li>
+                <li> Asia</li>
+                <li> Bhopal</li>
+                <li>Kolar road</li>
+                <li>Rai pink city phase-1</li>
+                <li>F-196</li>
+        </ol>
+        <!--when you want to start with number only and also want to start to some specific number-->
+        <ol type="1" start="10"style="color:rgba(242, 8, 203, 0.893)">
+            <li > World</li>
+                <li> Asia</li>
+                <li>India</li>
+                <li>Madhya prades</li>
+                <li> Asia</li>
+                <li> Bhopal</li>
+                <li>Kolar road</li>
+                <li>Rai pink city phase-1</li>
+                <li>F-196</li>
+        </ol>
+    </body>
+</head>

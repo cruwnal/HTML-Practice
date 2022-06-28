@@ -205,3 +205,29 @@ Link each picture with the provided information page
         
     </ul>
 .............................................................................................................................
+Shopping or Holiday?
+Lists are used very extensively to organize information. They can be ordered and un-ordereded. Let's make some of our own using HTML lists.
+
+Imagine you got a job from Newton School. Make 2 lists identifying the use of the money you'll make from the job
+Acceptance Criteria
+- The first list should be an ordered list of 3 items that you'd like to buy with your salary.
+- This list should have data-ns-test attribute in the <li> element and value of the attribute should be "shoppingList"
+- The second list should be an unordered list of the holiday destinations that you'd like to visit after you got a job.
+- It should at least have 3 places. This list should have data-ns-test attribute in the <li> element and value of the attribute should be "holidayList"
+
+
+<head>
+    <title>Shopping or Holiday?</title>
+</head>
+<body>
+    <ol>
+        <li data-ns-test="shoppingList">catract oprtraion of my mother</li>
+        <li data-ns-test="shoppingList">shoes</li>
+        <li data-ns-test="shoppingList">himalaya bike</li>
+    </ol>
+    <ul>
+        <li data-ns-test="holidayList">Mumbai</li>
+        <li data-ns-test="holidayList">Chennai</li>
+        <li data-ns-test="holidayList">Delhi</li> 
+    </ul>
+</body>

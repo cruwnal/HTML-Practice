@@ -231,3 +231,24 @@ Acceptance Criteria
         <li data-ns-test="holidayList">Delhi</li> 
     </ul>
 </body>
+..........................................................................................................................................
+
+//formating
+
+<head>
+    <title>
+        Formatting text
+    </title>
+</head>
+<body>
+    <div>
+    <b>Kunal nagwanshi</b>
+    <i>kunal nagwanshi</i>
+    <u>Kunal nagwanshi</u>
+    y<sup>2</sup>
+    f<sub>0</sub>
+    <code>computer code</code>
+    <cite>Cite</cite>
+    <div>
+
+</body>

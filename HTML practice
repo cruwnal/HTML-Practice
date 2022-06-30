@@ -296,3 +296,39 @@ Acceptance Criteria
 
              <footer>here is some deatils about russia</footer>
 </section>
+........................................................................................................
+Semantic Navbar & Images
+Make a semantic navbar i. e using semantic elements ex:- nav, ul, a.
+It should have a total of 3 links in the nav, "Home" "About us" and "Contact us".
+Give any href of your choice
+
+Also, add 3 images using these URLs, do not forget to put alt tag.
+1) https://picsum.photos/id/123/200/300
+2) https://picsum.photos/id/124/200/300
+3) https://picsum.photos/id/125/200/300
+
+Add the heading "3 random images" above the images.
+Testcases
+
+//code
+<html>
+    <head>
+        <title>Semantic Navbar & Images</title>
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li><a href="https://www.wikipedia.org/"></a>Home</li>
+                <li> <a href="https://www.whatsapp.com/"></a>About us</li>
+                <li><a href="mailto:nagwanshikunal23@gmail.com"></a>Contact us</li>
+            </ul>
+            <h1>3 random images</h1>
+            <img src="https://picsum.photos/id/123/200/300" alt="image">
+            <img src="https://picsum.photos/id/124/200/300" alt="image">
+            <img src="https://picsum.photos/id/125/200/300" alt="image">
+
+
+        </nav>
+    </body>
+</html>
+

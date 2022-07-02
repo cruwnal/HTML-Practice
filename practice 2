@@ -1,0 +1,12 @@
+video
+
+<head>
+    <title>
+        video
+    </title>
+</head>
+<body>
+    <video controls height="1000" width="1000">
+        <source  src="./SampleVideo.mp4"  type="video/mp4">
+    </video>
+</body>

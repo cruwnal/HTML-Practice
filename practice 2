@@ -24,3 +24,51 @@ iframe
     <iframe src="./1orderList.html" title="order listr"  hight="100" width="100"></iframe>
     <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/-ZvsGmYKhcU?start=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </body>
+.....................................................................................
+Semantic Navbar & Videos
+Make a semantic navbar i. e using semantic elements ex:- nav, ul, a.
+It should have total of 3 links in the nav, "Home" "About us" and "Contact us".
+Give any href of your choice.
+
+Also, add 3 videos using these URLs, do not forget to put attribute to display the controls.
+1) http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4
+2) http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4
+3)http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/SubaruOutbackOnStreetAndDirt.mp4
+
+Add the heading "3 random videos" above the videos.
+
+
+code
+
+that code may be wrong according the question 
+
+<html>
+    <head>
+        <title>Semantic Navbar & Videos</title>
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li><a href="https://www.at-home.co.in/">Home</a></li>
+                <li><a href="https://www.bing.com/search?q=about+us&cvid=c36c72e2223e4ab98a1f63b5b08e7ba7&aqs=edge..69i57j0l8.5526j0j1&pglt=41&FORM=ANNTA1&PC=ASTS">About us</a></li>
+                
+                <li><a href="mailto:nagwanshikunal23@gmail.com">Contact us</a></li>
+            </ul>
+            </nav>
+        
+        <h1>3 random videos</h1>
+        <video controls >
+            <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" type="video/mp4">
+        </video>
+        <video controls >
+            <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4" type="video/mp4">
+            
+        </video>
+        <video controls> 
+            <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/SubaruOutbackOnStreetAndDirt.mp4" type="videp/mp4">
+        </video>
+        
+    </body>
+</html>
+........................................
+new code

@@ -15,4 +15,17 @@
     </body>
     
 </html>
+
+// after submit the form you will going to get the this below information
+
+
+<html>
+    <head>
+        <title>Form2</title>
+    </head>
+    <body style="text-align:center;color:blueviolet">
+        <h2>Form is succesfully submitted</h2>
+        <img src="./suceesfullySubmitted.jfif" alt="image">
+    </body>
+</html>
 ......................................................................................................

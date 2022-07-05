@@ -67,6 +67,9 @@
          Phone number <input type="number" name="Phone"><br/><br/>
          DOB <input type="date" name="DateOfBirth" value="DOB"><br/><br/>
          <input type="submit" value="register">
+         <!--if you want top reset the data-->
+         <input type="reset" value="Clear all">
         </form>
     </body>
+</html>
 </html>

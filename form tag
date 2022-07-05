@@ -74,7 +74,7 @@
 </html>
 </html>
 .............................................
-#checkbox and #radio attributes
+#checkbox and #radio #label attributes
 
 <!DOCTYPE html>
 <html>
@@ -84,22 +84,25 @@
         </title>
     </head>
     <body>
-        <form style="text-align:center;color:rgb(24, 18, 31)">
-            list of city<input type="checkbox" value="Delhi" name="Delhi">Delhi<br/><br/>
-                        <input type="checkbox" value="Mumbai" name="Mumbai">Mumbai<br/><br/>
-                        <input type="checkbox" value="Bhopal" name="Bhopal">Bhopal<br/><br/>
-                        <input type="checkbox" value="Chennai" name="Chennai">Chennai<br/><br/>
-                        <input type="checkbox" value="Hyderbad" name="Hyderabad">Hyderabad<br/><br/>
-                        <input type="checkbox" value="banglore" name="Banglore">Banglore<br/><br/>
-                        <input type="checkbox" value="Kolkata" name="Kolkata">Kolkata<br/><br/> 
-                        <input type="checkbox" value="Agartala" name="Agartala">Agartala<br/><br/>
-                        <input type="checkbox" value="Dishpur" name="Dishpur">Dishpur<br/><br/>
-                        <input type="checkbox" value="Aizwal" name="Aizwal">Aizwal<br/><br/>
-                        <input type="checkbox" value="Itanagar" name="Itanagar">Itanagar<br/><br/>
-                        <input type="checkbox" value="Shilong" name="Shilong">Shilong<br/><br/>
+        <form style="text-align:center;color:rgb(24, 18, 31)" action="./submitForm.html">
+            list of city<label><input type="checkbox" value="Delhi" name="Delhi">Delhi<br/><br/></label>
+                        <label><input type="checkbox" value="Mumbai" name="Mumbai">Mumbai<br/><br/></label>
+                        <label><input type="checkbox" value="Bhopal" name="Bhopal">Bhopal<br/><br/></label>
+                        <label><input type="checkbox" value="Chennai" name="Chennai">Chennai<br/><br/></label>
+                        <label><input type="checkbox" value="Hyderbad" name="Hyderabad">Hyderabad<br/><br/></label>
+                        <label><input type="checkbox" value="banglore" name="Banglore">Banglore<br/><br/></label>
+                        <label><input type="checkbox" value="Kolkata" name="Kolkata">Kolkata<br/><br/></label> 
+                        <label><input type="checkbox" value="Agartala" name="Agartala">Agartala<br/><br/></label>
+                        <label><input type="checkbox" value="Dishpur" name="Dishpur">Dishpur<br/><br/></label>
+                        <label><input type="checkbox" value="Aizwal" name="Aizwal">Aizwal<br/><br/></label>
+                        <label><input type="checkbox" value="Itanagar" name="Itanagar">Itanagar<br/><br/></label>
+                        <label><input type="checkbox" value="Shilong" name="Shilong">Shilong<br/><br/></label>
                         
-               Gender<input type="radio" name="gender"  value="male">male
-                    <input type="radio" name="gender" value="female">female<br/>       
+               Gender
+                    <label for="male">Male</label> 
+                    <input type="radio" name="gender"  value="male" id="male">
+                    <label for="female">Female</label>
+                    <input type="radio" name="gender" value="female" id="female"><br/>       
                         
         
         

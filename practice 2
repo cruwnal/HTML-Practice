@@ -182,13 +182,18 @@ input with table
             <label for="Female">
                 <input type="radio" id="Female" name="gender" value="female">Female
             </label><br/>
-            select your city<select name="city" id="city" multiple>
+            select your city<select name="city" id="city" size="3" multiple>
                 <option id="Delhi" value="Delhi">Delhi</option>
                 <option id="Kolkata" value="Kolkata">Kolkata</option>
-                <option id="Delhi" value="Chennai">Chennai</option>
-                <option id="Delhi" value="Mumbai">Mumbai</option>
+                <option id="chennai" value="Chennai">Chennai</option>
+                <option id="Indore" value="Indore">Indore</option>
+                <option id="Jabalpur" value="Jabalpur">Jabalpur</option>
+                <option id="Agartala" value="Agartala">Agartala</option>
 
             </select><br/>
+            <lebel for="description">Description</lebel>
+            <textarea id="description" name="description"></textarea><br/><br/>
+            
             <label for="doctor">
                 Occupation<input type="checkbox" id="doctor" value="doctor" name="Occupation">Doctor <br/><br/>
             </label><br/><br/>

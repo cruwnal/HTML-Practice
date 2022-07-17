@@ -1,0 +1,13 @@
+Real time project:
+
+
+value attribute selector:matching exact attribute value
+    input[type="text"]
+
+p::selection{
+	      background-color:grey;
+	   }
+
+input::placeholder{
+            color:red;
+		  }

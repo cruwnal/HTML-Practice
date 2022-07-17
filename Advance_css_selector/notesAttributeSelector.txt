@@ -1,0 +1,14 @@
+1.general attribute selector:
+   input[type]
+2.value attribute selector:matching exact attribute value
+    input[type="text"]
+3.caret symbol: should matching start keyword
+    li[id^="ac"]
+4.dollar symbol:should end with particular keyword
+    li[id$="lg"]
+5.* symbol: should match the paricular keyword anywhere inside the the attribute
+    li[id*="ac"]
+6.tilde symbol:similar to * symbol but keyword should have space in between.
+    li[id~="ac"]	
+7.pipe symbol --> it should start with particular keyword after that hypen is mandatory
+     li[id|="ac"]

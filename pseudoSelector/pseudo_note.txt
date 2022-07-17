@@ -1,0 +1,52 @@
+================================================================================================
+
+1.psuedo_elements_before:it will add the content in the first position
+     p::before{
+         content:"welcome";
+		 color:red;
+     }		
+2.psuedo_elements_after:it will add the content at the end position of that particular tag.
+     p::after{
+          content:" by salman";
+           color:red;
+        }
+3.psuedo_elements_first_letter:it will target the first character in the given word.
+      p::first-letter{
+	      font-size:20px;
+		  color:red;
+	  }		
+4.psuedo_elements_first_line:it will target the first line of the given sentence.
+      p::first-line{
+           color:red;
+           font-size:22px;
+         }
+5.psuedo_elements_selection:it is going to selector the particular set of elements while selecting from the mouse.
+       p::selection{
+	      background-color:grey;
+	   }		
+6.psuedo_elements_placeholder:it is going to select the placeholder attribute inside the form tag
+          input::placeholder{
+            color:red;
+		  }
+
+=========================================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
